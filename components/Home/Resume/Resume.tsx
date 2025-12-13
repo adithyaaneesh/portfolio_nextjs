@@ -14,9 +14,14 @@ const Resume = () => {
                 My Work <span className='text-cyan-200'>Experience</span>
             </h1>
             <div className='mt-10' data-aos="zoom-in" data-aos-anchor-placement="top-center">
-                <ResumeCard icon={FaCodepen} role="Full-Stack Developer" />
-                <ResumeCard icon={FaReact} role="Front-end Developer" />
-                <ResumeCard icon={BsDatabase} role="Backend Developer" />
+                <ResumeCard 
+                    icon={FaCodepen} 
+                    role="Full-Stack Developer Intern" 
+                    description='Worked on full-stack web applications using React, Python, and Django.'
+                />
+                
+                {/* <ResumeCard icon={FaReact} role="Front-end Developer" />
+                <ResumeCard icon={BsDatabase} role="Backend Developer" /> */}
             </div>
         </div>
         {/* education part */}
@@ -27,18 +32,20 @@ const Resume = () => {
             <div className='mt-10' data-aos="zoom-out" data-aos-anchor-placement="top-center" data-aos-delay="300">
                 <ResumeCard 
                     icon={BiBadge} 
-                    role="Design Institute of technology" 
-                    date="Jan 2023 - Dec 2024"
+                    role="Bachelor of Computer Application" 
+                    date="Jan 2022 - Dec 2025"
+                    description='Studied core subjects like Database Management, Web Development, and Software Engineering.'
                 />
                 <ResumeCard 
                     icon={FaReact} 
-                    role="Frontend" 
-                    date="Jan 2019 - Dec 2022"
+                    role="HSS" 
+                    date="June 2020 - Mar 2022"
+                    description='Completed Higher Secondary Education in the stream of Computer Science'
                 />
-                <ResumeCard icon={BsDatabase} 
+                {/* <ResumeCard icon={BsDatabase} 
                     role="Certificate in Digital Marketing" 
                     date="Jan 2016 - Dec 2019"
-                />
+                /> */}
             </div>
         </div>
       </div>

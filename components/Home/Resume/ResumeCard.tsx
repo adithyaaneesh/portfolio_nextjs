@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import { IconType } from 'react-icons'
 
@@ -5,9 +6,10 @@ type Props = {
   role: string
   icon: IconType
   date?: string
+  description: string
 }
 
-const ResumeCard = ({ icon, role, date }: Props) => {
+const ResumeCard = ({ icon, role, date, description }: Props) => {
   const Icon = icon
 
   return (
@@ -28,7 +30,7 @@ const ResumeCard = ({ icon, role, date }: Props) => {
             {role}
           </h1>
           <p className="text-gray-300 text-sm sm:text-base pt-3">
-            qwertyuioasdfhjkxcvbnm
+           {description}
           </p>
         </div>
 

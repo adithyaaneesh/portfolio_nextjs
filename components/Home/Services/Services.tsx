@@ -12,28 +12,28 @@ const Services = () => {
                 <ServiceCard 
                     icon="/images/l1.png" 
                     name="UI and UX" 
-                    description="designing interfaces that are intuitive , efficient, and  enjoyable to use."
+                    description="Designing clean, intuitive, and user-friendly interfaces focused on usability and responsiveness."
                 />
             </div>
             <div data-aos="fade-right" data-aos-anchor-placement="top-center">
                 <ServiceCard 
                     icon="/images/l2.png" 
                     name="Web and Mobile App" 
-                    description="designing interfaces that are intuitive , efficient, and  enjoyable to use."
+                    description="Building responsive and scalable web applications using modern frontend technologies."
                 />
             </div>
             <div data-aos="fade-right" data-aos-anchor-placement="top-center">
                 <ServiceCard 
                     icon="/images/l3.png" 
                     name="Design & Creative" 
-                    description="designing interfaces that are intuitive , efficient, and  enjoyable to use."
+                    description="Creating visually appealing digital experiences with a balance of design and functionality."
                 />
             </div>
             <div data-aos="fade-right" data-aos-anchor-placement="top-center">
                 <ServiceCard 
                     icon="/images/l4.png" 
                     name="Development" 
-                    description="designing interfaces that are intuitive , efficient, and  enjoyable to use."
+                    description="Developing secure, scalable backend systems and RESTful APIs."
                 />
             </div>
         </div>
