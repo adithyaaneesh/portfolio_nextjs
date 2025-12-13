@@ -24,7 +24,7 @@ const Hero = () => {
             <span className="text-cyan-200">and experiences.</span>
         </h1>
         <h2 data-aos="fade-up" data-aos-delay="400" className='mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center'>
-            Hi! I'm Adithya - A Passionate 
+            Hi! I&apos;m Adithya - A Passionate 
             <span className='text-cyan-200 font-bold'>
                 <Typewriter options={{
                     strings:[
