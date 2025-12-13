@@ -8,28 +8,28 @@ const Services = () => {
             Collaborate with brand <br />and agencies to create   <br /> impactful results.
         </h1>
         <div className='w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 items-center'>
-            <div>
+            <div data-aos="fade-right" data-aos-anchor-placement="top-center">
                 <ServiceCard 
                     icon="/images/l1.png" 
                     name="UI and UX" 
                     description="designing interfaces that are intuitive , efficient, and  enjoyable to use."
                 />
             </div>
-            <div>
+            <div data-aos="fade-right" data-aos-anchor-placement="top-center">
                 <ServiceCard 
                     icon="/images/l2.png" 
                     name="Web and Mobile App" 
                     description="designing interfaces that are intuitive , efficient, and  enjoyable to use."
                 />
             </div>
-            <div>
+            <div data-aos="fade-right" data-aos-anchor-placement="top-center">
                 <ServiceCard 
                     icon="/images/l3.png" 
                     name="Design & Creative" 
                     description="designing interfaces that are intuitive , efficient, and  enjoyable to use."
                 />
             </div>
-            <div>
+            <div data-aos="fade-right" data-aos-anchor-placement="top-center">
                 <ServiceCard 
                     icon="/images/l4.png" 
                     name="Development" 
