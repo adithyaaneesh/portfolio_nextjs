@@ -4,6 +4,7 @@ import React from 'react'
 import { BsArrowRight } from 'react-icons/bs';
 import Typewriter from 'typewriter-effect'
 import ParticlesHero from './particleBackground';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -40,11 +41,22 @@ const Hero = () => {
                 }}/>
             </span>
         </h2>
-        <button data-aos="fade-up" data-aos-delay="600" className='mt-6 px-10 py-4 bg-blue-800 hover:bg-blue-900 transition-all duration-300
+        <Link href="#projects" scroll={true}>
+          <button
+            data-aos="fade-up"
+            data-aos-delay="600"
+            className="mt-6 px-10 py-4 bg-blue-800 hover:bg-blue-900 transition-all duration-300
+            cursor-pointer rounded-full text-lg font-medium"
+          >
+            <span>See my work</span>
+            <BsArrowRight className="w-5 h-5 ml-2 inline-block" />
+          </button>
+        </Link>
+        {/* <button data-aos="fade-up" data-aos-delay="600" className='mt-6 px-10 py-4 bg-blue-800 hover:bg-blue-900 transition-all duration-300
          cursor-pointer rounded-full text-lg font-medium'>
             <span>See my work</span>
             <BsArrowRight className='w-5 h-5 ml-2 inline-block'/>
-         </button>
+         </button> */}
       </div>
     </div>
   )
