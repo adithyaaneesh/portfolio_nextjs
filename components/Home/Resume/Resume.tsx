@@ -17,6 +17,7 @@ const Resume = () => {
                 <ResumeCard 
                     icon={FaCodepen} 
                     role="Full-Stack Developer Intern" 
+                    date='June 2025 - Present'
                     description='Worked on full-stack web applications using React, Python, and Django.'
                 />
                 
@@ -34,7 +35,7 @@ const Resume = () => {
                     icon={BiBadge} 
                     role="Bachelor of Computer Application" 
                     date="Jan 2022 - Dec 2025"
-                    description='Studied core subjects like Database Management, Web Development, and Software Engineering.'
+                    description='M E T arts & Science College, Nadapuram'
                 />
                 <ResumeCard 
                     icon={FaReact} 

@@ -10,27 +10,27 @@ const Projects = () => {
         <div className='w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16'>
             {/* projects 1*/}
             <div  data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="0">
-                <Image src='/images/p1.jpg' alt='img' width={800} height={650} className='rounded-lg'/>
-                <h2 className='mt-4 text-xl sm:text-4xl font-semibold text-white'>Modern Finance Dashboard UI</h2>
-                <h2 className='pt-2 font-medium text-white/80'>Apps, UI/UX</h2>
+                <Image src='/images/p1.png' alt='img' width={800} height={650} className='rounded-lg'/>
+                <h2 className='mt-4 text-xl sm:text-4xl font-semibold text-white'>Swiggy-API</h2>
+                <h2 className='pt-2 font-medium text-white/80'>Django | DRF | PayPal</h2>
             </div>
             {/* projects 2*/}
             <div  data-aos="zoom-out" data-aos-anchor-placement="top-center" data-aos-delay="100">
-                <Image src='/images/p2.jpg' alt='img' width={800} height={650} className='rounded-lg'/>
-                <h2 className='mt-4 text-xl sm:text-4xl font-semibold text-white'>Portfolio Website for Creatives</h2>
-                <h2 className='pt-2 font-medium text-white/80'>Bradning , Motion</h2>
+                <Image src='/images/p2.png' alt='img' width={800} height={650} className='rounded-lg'/>
+                <h2 className='mt-4 text-xl sm:text-4xl font-semibold text-white'>Life Link</h2>
+                <h2 className='pt-2 font-medium text-white/80'>HTML | CSS | Django | Python</h2>
             </div>
             {/* projects 3*/}
             <div  data-aos="zoom-out" data-aos-anchor-placement="top-center" data-aos-delay="200">
-                <Image src='/images/p3.jpg' alt='img' width={800} height={650} className='rounded-lg'/>
-                <h2 className='mt-4 text-xl sm:text-4xl font-semibold text-white'>Brand Identity for Startups</h2>
-                <h2 className='pt-2 font-medium text-white/80'>Branding , UI/UX</h2>
+                <Image src='/images/p3.png' alt='img' width={800} height={650} className='rounded-lg'/>
+                <h2 className='mt-4 text-xl sm:text-4xl font-semibold text-white'>Urban Tote Co.</h2>
+                <h2 className='pt-2 font-medium text-white/80'>React.js | Hooks | MUI</h2>
             </div>
             {/* projects 4*/}
             <div data-aos="zoom-out" data-aos-anchor-placement="top-center" data-aos-delay="300">
-                <Image src='/images/p4.jpg' alt='img' width={800} height={650} className='rounded-lg'/>
-                <h2 className='mt-4 text-xl sm:text-4xl font-semibold text-white'>SaaS Dashboard Development</h2>
-                <h2 className='pt-2 font-medium text-white/80'>Apps, UI/UX</h2>
+                <Image src='/images/p4.png' alt='img' width={800} height={650} className='rounded-lg'/>
+                <h2 className='mt-4 text-xl sm:text-4xl font-semibold text-white'>Organic Store | E-commerce (Team Project)</h2>
+                <h2 className='pt-2 font-medium text-white/80'>HTML | CSS | JavaScript</h2>
             </div>
         </div>
     </div>

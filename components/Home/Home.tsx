@@ -31,8 +31,8 @@ export default function Home() {
       <Resume />
       <Projects />
       <Skills />
-      <ClientReview />
-      <Blog />
+      {/* <ClientReview /> */}
+      {/* <Blog /> */}
       <Contact />
     </div>
   );
