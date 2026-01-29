@@ -44,7 +44,7 @@ const Nav = ({openNav}:Props) => {
             <div className='flex items-center space-x-4'>
                 {/* cv button */}
                 <a
-                    href="/cv/adithyacv.pdf"
+                    href="/cv/ADITHYAC-CV.pdf"
                     download
                     className="px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-blue-800 hover:bg-blue-900 transition-all duration-300 text-white flex items-center space-x-2">
                     <BiDownload className="w-5 h-5" />
