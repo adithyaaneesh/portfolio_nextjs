@@ -15,9 +15,17 @@ const Resume = () => {
             </h1>
             <div className='mt-10' data-aos="zoom-in" data-aos-anchor-placement="top-center">
                 <ResumeCard 
+                    icon={BsDatabase} 
+                    role="Python Full-Stack Trainer" 
+                    date='Jan 2026 - Present'
+                    description="Deliver hands-on training in Python full-stack development, covering Django, REST APIs, React, and 
+                    database management. Mentor students through real-world projects, code reviews, and best practices in full-stack 
+                    application development."
+                />
+                <ResumeCard 
                     icon={FaCodepen} 
                     role="Full-Stack Developer Intern" 
-                    date='June 2025 - Present'
+                    date='June 2025 - Jan 2026'
                     description='Worked on full-stack web applications using React, Python, and Django.'
                 />
                 
