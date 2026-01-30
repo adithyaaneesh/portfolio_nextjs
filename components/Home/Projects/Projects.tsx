@@ -14,6 +14,13 @@ const Projects = () => {
         {/* Project Card */}
         {[
           {
+            img: "/images/p5.png",
+            title: "Parking-Reservation-API",
+            tech: "Django | DRF | Razorpay",
+            live: "#",
+            github: "https://github.com/adithyaaneesh/parking_reservation_system",
+          },
+          {
             img: "/images/p1.png",
             title: "Swiggy-API",
             tech: "Django | DRF | PayPal",
