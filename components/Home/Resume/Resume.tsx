@@ -24,9 +24,11 @@ const Resume = () => {
                 />
                 <ResumeCard 
                     icon={FaCodepen} 
-                    role="Full-Stack Developer Intern" 
+                    role="Python Full-Stack Developer Intern" 
                     date='June 2025 - Jan 2026'
-                    description='Worked on full-stack web applications using React, Python, and Django.'
+                    description="Developed and maintained full-stack web applications using React, Python, and Django. 
+                    Built RESTful APIs, integrated frontend components, and worked with databases while following clean 
+                    coding and version control practices."
                 />
                 
                 {/* <ResumeCard icon={FaReact} role="Front-end Developer" />
